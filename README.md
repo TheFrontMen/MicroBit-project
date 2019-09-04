@@ -16,6 +16,12 @@ We tested the game everytime we modified something in order to insure that the c
 Extention Ideas:
 We had the idea of when both of the microbit butons were pressed at the same time that the game would restart. Another thing we could have added was the constant music in the background throughout the game. 
 
+
+
+![alt text](https://github.com/TheFrontMen/MicroBit-project/blob/master/IMG_20190904_150921_resized_20190904_031047241.jpg "Playing the game")
+
+![alt text](https://github.com/TheFrontMen/MicroBit-project/blob/master/IMG_20190904_150902_resized_20190904_031046861.jpg "Playing the game")
+
 Code
 ```python
 from microbit import *
@@ -166,4 +172,5 @@ sleep(2000)
 music.play(music.POWER_DOWN)
 sleep(100)
 display.scroll("Game Over: Score: " + str(score))
+display.scroll("Modified by HR and NR")
 ```
